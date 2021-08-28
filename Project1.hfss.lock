@@ -1,0 +1,33 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=18192
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\HFSS15.0\\Win64\\hfss.exe'
+	LaunchedByWB=false
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.187.1'
+			ListenPort='4340'
+			IPAddressVector[2: '192.168.95.1', '192.168.43.92']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=18192
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.187.1'
+			ListenPort='4340'
+			IPAddressVector[2: '192.168.95.1', '192.168.43.92']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=18192
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+$end 'ConnectionParameters'
